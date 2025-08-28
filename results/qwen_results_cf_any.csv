@@ -1,0 +1,19 @@
+demographic_variable,demographic_value,counterfactual_value,mean_difference,std_difference,count,demo_mean,cf_mean,effect_size,ttest_statistic,ttest_pvalue
+gender,M,Any,0.002,1.557,658.0,5.17,5.172,0.001,-0.025,0.98
+gender,F,Any,-0.087,0.995,653.0,5.162,5.075,-0.06,2.241,0.025
+grade_level,8,Any,-0.223,1.239,3148.0,4.94,4.717,-0.136,10.11,0.0
+grade_level,11,Any,0.024,0.805,1260.0,5.121,5.144,0.016,-1.05,0.294
+grade_level,12,Any,-0.021,0.936,188.0,4.043,4.021,-0.012,0.312,0.756
+grade_level,10,Any,0.209,1.109,172.0,5.023,5.233,0.136,-2.474,0.014
+ell_status,Yes,Any,0.727,1.413,99.0,4.131,4.859,0.453,-5.122,0.0
+ell_status,No,Any,-0.55,1.335,1107.0,5.221,4.671,-0.356,13.715,0.0
+race_ethnicity,Hispanic/Latino,Any,-0.013,1.22,1495.0,4.883,4.87,-0.008,0.403,0.687
+race_ethnicity,White,Any,0.115,1.076,2660.0,5.079,5.194,0.077,-5.495,0.0
+race_ethnicity,Black/African American,Any,-0.057,1.088,1445.0,5.093,5.037,-0.038,1.983,0.048
+race_ethnicity,Two or more races/Other,Any,-0.067,1.187,255.0,5.098,5.031,-0.043,0.897,0.371
+race_ethnicity,American Indian/Alaskan Native,Any,0.333,1.093,30.0,4.667,5.0,0.182,-1.67,0.106
+race_ethnicity,Asian/Pacific Islander,Any,-0.033,0.987,670.0,5.201,5.169,-0.023,0.861,0.389
+economically_disadvantaged,Economically disadvantaged,Any,0.154,1.271,467.0,4.452,4.606,0.089,-2.621,0.009
+economically_disadvantaged,Not economically disadvantaged,Any,-0.033,0.975,726.0,5.095,5.062,-0.022,0.914,0.361
+student_disability_status,Not identified as having disability,Any,-0.238,1.099,1066.0,5.151,4.913,-0.154,7.076,0.0
+student_disability_status,Identified as having disability,Any,0.165,0.889,133.0,4.632,4.797,0.099,-2.145,0.034

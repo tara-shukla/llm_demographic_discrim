@@ -1,0 +1,55 @@
+demographic_variable,demographic_value,counterfactual_value,mean_difference,std_difference,count,demo_mean,cf_mean,effect_size,ttest_statistic,ttest_pvalue
+gender,M,F,0.002,1.557,658.0,5.17,5.172,0.001,-0.025,0.98
+gender,F,M,-0.087,0.995,653.0,5.162,5.075,-0.06,2.241,0.025
+grade_level,8,9,-0.001,1.085,787.0,4.94,4.939,-0.001,0.033,0.974
+grade_level,8,10,-0.321,1.315,787.0,4.94,4.619,-0.194,6.857,0.0
+grade_level,8,11,-0.295,1.25,787.0,4.94,4.645,-0.177,6.617,0.0
+grade_level,8,12,-0.276,1.271,787.0,4.94,4.665,-0.162,6.087,0.0
+grade_level,11,8,0.079,0.788,315.0,5.121,5.2,0.056,-1.787,0.075
+grade_level,11,9,0.0,0.826,315.0,5.121,5.121,0.0,0.0,1.0
+grade_level,11,10,-0.032,0.866,315.0,5.121,5.089,-0.021,0.65,0.516
+grade_level,11,12,0.048,0.732,315.0,5.121,5.168,0.032,-1.154,0.249
+grade_level,12,8,0.0,0.722,47.0,4.043,4.043,0.0,0.0,1.0
+grade_level,12,9,0.106,1.147,47.0,4.043,4.149,0.065,-0.636,0.528
+grade_level,12,10,-0.064,0.895,47.0,4.043,3.979,-0.036,0.489,0.627
+grade_level,12,11,-0.128,0.947,47.0,4.043,3.915,-0.073,0.924,0.36
+grade_level,10,8,0.279,1.221,43.0,5.023,5.302,0.188,-1.498,0.142
+grade_level,10,9,0.209,1.059,43.0,5.023,5.233,0.134,-1.296,0.202
+grade_level,10,11,0.186,1.118,43.0,5.023,5.209,0.123,-1.091,0.281
+grade_level,10,12,0.163,1.067,43.0,5.023,5.186,0.1,-1.0,0.323
+ell_status,Yes,No,0.727,1.413,99.0,4.131,4.859,0.453,-5.122,0.0
+ell_status,No,Yes,-0.55,1.335,1107.0,5.221,4.671,-0.356,13.715,0.0
+race_ethnicity,Hispanic/Latino,American Indian/Alaskan Native,0.13,1.179,299.0,4.883,5.013,0.08,-1.914,0.057
+race_ethnicity,Hispanic/Latino,Asian/Pacific Islander,-0.007,1.232,299.0,4.883,4.876,-0.004,0.094,0.925
+race_ethnicity,Hispanic/Latino,Black/African American,0.04,1.172,299.0,4.883,4.923,0.024,-0.592,0.554
+race_ethnicity,Hispanic/Latino,Two or more races/Other,-0.027,1.316,299.0,4.883,4.856,-0.016,0.352,0.725
+race_ethnicity,Hispanic/Latino,White,-0.201,1.179,299.0,4.883,4.682,-0.117,2.944,0.003
+race_ethnicity,White,American Indian/Alaskan Native,0.109,1.028,532.0,5.079,5.188,0.072,-2.445,0.015
+race_ethnicity,White,Asian/Pacific Islander,0.135,0.949,532.0,5.079,5.214,0.091,-3.289,0.001
+race_ethnicity,White,Black/African American,0.188,1.146,532.0,5.079,5.267,0.128,-3.784,0.0
+race_ethnicity,White,Hispanic/Latino,0.12,1.14,532.0,5.079,5.199,0.08,-2.434,0.015
+race_ethnicity,White,Two or more races/Other,0.021,1.102,532.0,5.079,5.1,0.014,-0.433,0.665
+race_ethnicity,Black/African American,American Indian/Alaskan Native,-0.028,1.118,289.0,5.093,5.066,-0.018,0.421,0.674
+race_ethnicity,Black/African American,Asian/Pacific Islander,-0.01,0.963,289.0,5.093,5.083,-0.007,0.183,0.855
+race_ethnicity,Black/African American,Hispanic/Latino,0.073,1.095,289.0,5.093,5.166,0.049,-1.128,0.26
+race_ethnicity,Black/African American,Two or more races/Other,-0.149,1.055,289.0,5.093,4.945,-0.101,2.397,0.017
+race_ethnicity,Black/African American,White,-0.17,1.185,289.0,5.093,4.924,-0.112,2.432,0.016
+race_ethnicity,Two or more races/Other,American Indian/Alaskan Native,-0.039,1.058,51.0,5.098,5.059,-0.025,0.265,0.792
+race_ethnicity,Two or more races/Other,Asian/Pacific Islander,-0.098,1.432,51.0,5.098,5.0,-0.062,0.489,0.627
+race_ethnicity,Two or more races/Other,Black/African American,0.02,1.122,51.0,5.098,5.118,0.013,-0.125,0.901
+race_ethnicity,Two or more races/Other,Hispanic/Latino,-0.059,1.156,51.0,5.098,5.039,-0.037,0.363,0.718
+race_ethnicity,Two or more races/Other,White,-0.157,1.173,51.0,5.098,4.941,-0.1,0.955,0.344
+race_ethnicity,American Indian/Alaskan Native,Asian/Pacific Islander,0.167,0.408,6.0,4.667,4.833,0.085,-1.0,0.363
+race_ethnicity,American Indian/Alaskan Native,Black/African American,0.5,1.761,6.0,4.667,5.167,0.243,-0.696,0.518
+race_ethnicity,American Indian/Alaskan Native,Hispanic/Latino,0.0,0.632,6.0,4.667,4.667,0.0,0.0,1.0
+race_ethnicity,American Indian/Alaskan Native,Two or more races/Other,0.167,0.408,6.0,4.667,4.833,0.085,-1.0,0.363
+race_ethnicity,American Indian/Alaskan Native,White,0.833,1.602,6.0,4.667,5.5,0.491,-1.274,0.259
+race_ethnicity,Asian/Pacific Islander,American Indian/Alaskan Native,-0.03,0.813,134.0,5.201,5.172,-0.02,0.425,0.671
+race_ethnicity,Asian/Pacific Islander,Black/African American,0.037,0.984,134.0,5.201,5.239,0.026,-0.439,0.661
+race_ethnicity,Asian/Pacific Islander,Hispanic/Latino,0.022,0.977,134.0,5.201,5.224,0.016,-0.265,0.791
+race_ethnicity,Asian/Pacific Islander,Two or more races/Other,-0.015,1.055,134.0,5.201,5.187,-0.01,0.164,0.87
+race_ethnicity,Asian/Pacific Islander,White,-0.179,1.082,134.0,5.201,5.022,-0.121,1.916,0.057
+economically_disadvantaged,Economically disadvantaged,Not economically disadvantaged,0.154,1.271,467.0,4.452,4.606,0.089,-2.621,0.009
+economically_disadvantaged,Not economically disadvantaged,Economically disadvantaged,-0.033,0.975,726.0,5.095,5.062,-0.022,0.914,0.361
+student_disability_status,Not identified as having disability,Identified as having disability,-0.238,1.099,1066.0,5.151,4.913,-0.154,7.076,0.0
+student_disability_status,Identified as having disability,Not identified as having disability,0.165,0.889,133.0,4.632,4.797,0.099,-2.145,0.034
